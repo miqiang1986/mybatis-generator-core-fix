@@ -294,9 +294,9 @@ public class JavaBeansUtil {
 
     /**
      * 获取toString方法
-     * @param type
-     * @param topLevelClass
-     * @return
+     * @param type          包括Java类全路径
+     * @param topLevelClass 父类
+     * @return  解析好的tostring字符串
      */
     public static Method getToStringMethod(FullyQualifiedJavaType type,
                                            TopLevelClass topLevelClass){
