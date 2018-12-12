@@ -137,7 +137,7 @@ public class JavaTypeResolverDefaultImpl implements JavaTypeResolver {
                         || forceBigDecimals) {
                     answer = new FullyQualifiedJavaType(BigDecimal.class
                             .getName());
-                } else if (introspectedColumn.getLength() > 9) {
+                } else if (introspectedColumn.getLength() > 10) {
                     answer = new FullyQualifiedJavaType(Long.class.getName());
 //                } else if (introspectedColumn.getLength() > 4) {
 //                    answer = new FullyQualifiedJavaType(Integer.class.getName());

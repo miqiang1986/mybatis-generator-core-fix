@@ -32,7 +32,7 @@ mybatis generator 生成数据库备注为注释 修整部分代码的样式
         4.8.1 JavaBeansUtil中添加 getToStringMethod 方法，提供调用。  
         4.8.2 修改BaseRecordGenerator中的 getCompilationUnits 方法。  
         4.8.3 修改SimpleModelGenerator中的 getCompilationUnits 方法。  
-    4.9 修改数字长度小于等于9位数的整数为Integer  
+    4.9 修改数字长度小于等于10位数的整数为Integer  
         4.9.1 修改 JavaTypeResolverDefaultImpl中的 calculateJavaType(IntrospectedColumn introspectedColumn) 方法。  
 
 5. maven工程的打包命令：```mvn clean install -Dmaven.test.skip=true```
